@@ -54,10 +54,4 @@ CREATE TABLE online_shoppers (
 
 -- Verify Schema
 DESCRIBE online_shoppers;
-/*
-NOTE:
-The project workflow was implemented using Python for data loading,
-cleaning, and preprocessing. This schema is included to demonstrate
-how the dataset can be represented in a relational database and to
-support the SQL analysis included in this repository.
-*/
+
