@@ -34,3 +34,5 @@ cleaning, and preprocessing. This schema is included to demonstrate
 how the dataset can be represented in a relational database and to
 support the SQL analysis included in this repository.
 */
+<img width="697" height="242" alt="image" src="https://github.com/user-attachments/assets/81bd7119-d817-49dd-b93f-a43a9be99c18" />
+
