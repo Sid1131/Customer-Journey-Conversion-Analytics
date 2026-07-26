@@ -16,10 +16,10 @@ Objectives:
 
 ==============================================================================*/
 
-**Total Sessions** 
+##Total Sessions 
 select count(*) as total_sessions from online_shoppers
 
-** Conversion Rate**
+##Conversion Rate
 select 
 round(sum(case when Revenue='1' then 1 else 0 end)/count(*)*100,2) as conversion_rate 
 from online_shoppes
