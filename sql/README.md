@@ -26,3 +26,11 @@ Contains SQL queries for business analysis including:
 - Funnel Analytics
 
 The SQL analysis was performed to generate business insights before building the Machine Learning models.
+
+/*
+NOTE:
+The project workflow was implemented using Python for data loading,
+cleaning, and preprocessing. This schema is included to demonstrate
+how the dataset can be represented in a relational database and to
+support the SQL analysis included in this repository.
+*/
