@@ -87,9 +87,7 @@ The dataset was cleaned and prepared using the following steps:
 - Data quality assessment
 - Missing value verification
 - Duplicate analysis
-- Feature engineering
 - Data type conversion
-- Outlier analysis
 - Exploratory data analysis
 - Correlation analysis
 - Dataset preparation for Machine Learning
@@ -172,7 +170,6 @@ Examples:
 Techniques Used:
 
 - Hypothesis Testing
-- Independent T-Test
 - P-value Interpretation
 - Statistical Significance
 
@@ -207,11 +204,26 @@ Evaluation Metrics:
 
 ---
 
-# 🏆 Results
+# 🏆 Model Performance
 
-The tuned **XGBoost** model delivered the best overall performance by balancing precision and recall while achieving a strong ROC-AUC score.
+Multiple machine learning models were developed and evaluated to predict customer purchase intent.
 
-The model can assist businesses in identifying high-intent visitors and improving marketing efficiency.
+Models implemented:
+
+- Logistic Regression
+- Logistic Regression (Hyperparameter Tuning)
+- Random Forest Classifier
+- Random Forest Classifier (Hyperparameter Tuning)
+- XGBoost Classifier
+
+After comparing all models using Accuracy, Precision, Recall, F1-Score, and ROC-AUC, the **Random Forest Classifier with Hyperparameter Tuning** was selected as the final model because it provided the best overall balance between predictive performance and generalization for this dataset.
+
+The final model was evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
 
 ---
 
